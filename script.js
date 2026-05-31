@@ -15,5 +15,5 @@ if(pageNumber < 1){ pageNumber = 1; }
 if(pageNumber > 24){ pageNumber = 24; }
 
 document.getElementById("zone-clic").addEventListener("click", function() {
-    document.getElementById("defi-image").src = `pages/${pageNumber}.png`;
+    document.getElementById("defi-image").src = `${pageNumber}.png`;
 });
