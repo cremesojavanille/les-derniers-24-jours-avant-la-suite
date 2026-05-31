@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+}
+
+#zone-clic {
+    position: absolute;
+    left: 32%;
+    top: 65%;
+    width: 8%;
+    height: 28%;
+    cursor: pointer;
+}
